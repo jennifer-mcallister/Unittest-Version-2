@@ -81,7 +81,6 @@ export function clearTodos(todos: Todo[]) {
   exports.createHtml(todos);
 }
 
-// let results: IAddResponse = {success:true, error:"text"};
 
 export function addTodo(todoText: string, todos: Todo[]): IAddResponse {
   if (todoText.length > 2) {
